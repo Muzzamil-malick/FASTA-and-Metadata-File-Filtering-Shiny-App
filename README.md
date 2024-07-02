@@ -5,7 +5,7 @@ This repository contains a Shiny application that allows users to filter FASTA a
 ## Features
 
 - User-friendly interface for selecting and filtering FASTA and metadata files.
-- Multiple filter options including locality, date range, state/province, and cluster.
+- Multiple filter options included
 - Generates filtered FASTA and metadata files.
 - Provides a bar plot visualization of the filtered metadata.
 
