@@ -28,6 +28,38 @@ The following R packages are required to run the app:
 - readxl
 - writexl
 
+- sage
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/fasta-metadata-filter-shiny-app.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd fasta-metadata-filter-shiny-app
+Run the Shiny app:
+
+Open app.R in RStudio or run the following command in your R console:
+
+r
+Copy code
+shiny::runApp('app.R')
+Upload the files:
+
+Choose the FASTA file (.fas, .fa, .fasta).
+Choose the metadata file (.xlsx).
+Apply filters:
+
+Select the desired state/province.
+Select the localities.
+Select the clusters.
+Set the date range.
+Filter and download:
+
+Click on the Filter Files button to filter the data. The filtered FASTA and metadata files will be saved in the filtered_files directory.
+
 You can install these packages using the following commands:
 
 ```r
